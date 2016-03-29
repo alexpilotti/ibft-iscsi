@@ -10,7 +10,6 @@ int main(int argn, char** argv){
     }
     if (strcmp("-pretty", argv[1]) == 0){
         pretty_print_file(argv[2]);
-        while (1);
         return 0;
     }
     int errno;
