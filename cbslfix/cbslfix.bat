@@ -58,7 +58,7 @@ echo ---
 echo -system info
 echo %serial% > %odir%\serial.txt
 ipconfig /all > %odir%\%serial%-ipconfig.txt
-route print /all > %odir%\%serial%-routes.txt
+route print > %odir%\%serial%-routes.txt
 %offwin%\system32\systeminfo /fo list > %odir%\%serial%-systeminfo.txt
 %offwin%\system32\systeminfo /fo csv > %odir%\%serial%-systeminfo.csv
 echo ---
