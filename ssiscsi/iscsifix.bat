@@ -12,7 +12,7 @@ set windir=%1
 set outdir=%2
 set suffix=%3
 
-dir /b > %outdir%\iscsi-fix%suffix%.log
+iscsims.exe > %outdir%\iscsi-fix%suffix%.log
 type %outdir%\iscsi-fix%suffix%.log
 
 goto end
